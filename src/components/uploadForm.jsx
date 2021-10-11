@@ -44,7 +44,13 @@ class UploadForm extends Component {
         <label htmlFor="upload-img" className="upload-img">
           파일업로드
         </label>
-        <input ref={this.imgRef} type="file" id="upload-img" accept="image/*" />
+        <input
+          ref={this.imgRef}
+          type="file"
+          id="upload-img"
+          className="hidden"
+          accept="image/*"
+        />
         <div className="btn-group">
           <button className="close-btn">뒤로가기</button>
           <button type="submit" className="upload-btn">

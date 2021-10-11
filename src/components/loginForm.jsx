@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class LoginForm extends Component {
   userNameRef = React.createRef();
@@ -7,7 +8,6 @@ class LoginForm extends Component {
 
   handleUserLogin = (event) => {
     event.preventDefault();
-
     const userEmail = this.userEmailRef.current.value;
     const userPassword = this.userPasswordRef.current.value;
     this.props.onUserLogin(userEmail, userPassword);
@@ -38,7 +38,9 @@ class LoginForm extends Component {
         </form>
         <div className="signUp-link">
           <span>회원이아니신가요?</span>
-          <button>회원가입하기</button>
+          <Link to="signUpForm">
+            <button>회원가입하기</button>
+          </Link>
         </div>
       </section>
     );

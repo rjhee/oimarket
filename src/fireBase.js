@@ -21,7 +21,7 @@ const providers = {
   googleProvider: new firebase.auth.GoogleAuthProvider(),
 };
 
-export { firestore, storage };
+export { firestore, storage, firebaseAppAuth };
 
 export function signUp(email, password) {
   return firebaseAppAuth.createUserWithEmailAndPassword(email, password);

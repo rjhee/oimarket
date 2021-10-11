@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class SignUpForm extends Component {
   userNameRef = React.createRef();
@@ -47,7 +48,9 @@ class SignUpForm extends Component {
         </form>
         <div className="signIn-link">
           <span>회원이신가요?</span>
-          <button>로그인하기</button>
+          <Link to="/loginForm">
+            <button>로그인하기</button>
+          </Link>
         </div>
       </section>
     );

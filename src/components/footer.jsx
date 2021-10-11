@@ -9,31 +9,31 @@ class Footer extends Component {
           <Link to="/goodsList">
             <li className="footer-home">
               <button>
-                <i class="fas fa-home"></i>
+                <i className="fas fa-home"></i>
               </button>
             </li>
           </Link>
           <li className="footer-around">
             <button>
-              <i class="fas fa-map-marked-alt"></i>
+              <i className="fas fa-map-marked-alt"></i>
             </button>
           </li>
           <Link to="/uploadForm">
             <li className="footer-upload">
               <button>
-                <i class="fas fa-plus"></i>
+                <i className="fas fa-plus"></i>
               </button>
             </li>
           </Link>
           <li className="footer-messeage">
             <button>
-              <i class="fas fa-comments"></i>
+              <i className="fas fa-comments"></i>
             </button>
           </li>
-          <Link to="/userFrofile">
-            <li className="footer-user-frofile">
+          <Link to="/userProfile">
+            <li className="footer-user-Profile">
               <button>
-                <i class="fas fa-user-alt"></i>
+                <i className="fas fa-user-alt"></i>
               </button>
             </li>
           </Link>

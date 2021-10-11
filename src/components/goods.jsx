@@ -6,7 +6,7 @@ class Goods extends Component {
     const goodsImg = { backgroundImage: `url(${img})` };
 
     return (
-      <li className="goods">
+      <li className="goods" id={id}>
         <div className="goods-img" style={goodsImg}></div>
         <div className="goods-info">
           <h3 className="goods-title">{title}</h3>
