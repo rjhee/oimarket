@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/oimarket/static/css/main.bb1ccfa9.chunk.css",
+    "main.js": "/oimarket/static/js/main.0990dd2e.chunk.js",
+    "main.js.map": "/oimarket/static/js/main.0990dd2e.chunk.js.map",
+    "runtime-main.js": "/oimarket/static/js/runtime-main.0a486120.js",
+    "runtime-main.js.map": "/oimarket/static/js/runtime-main.0a486120.js.map",
+    "static/js/2.f41ffbd8.chunk.js": "/oimarket/static/js/2.f41ffbd8.chunk.js",
+    "static/js/2.f41ffbd8.chunk.js.map": "/oimarket/static/js/2.f41ffbd8.chunk.js.map",
+    "index.html": "/oimarket/index.html",
+    "static/css/main.bb1ccfa9.chunk.css.map": "/oimarket/static/css/main.bb1ccfa9.chunk.css.map",
+    "static/js/2.f41ffbd8.chunk.js.LICENSE.txt": "/oimarket/static/js/2.f41ffbd8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/oimarket/static/media/NotoSansKR-Regular.e95adf0e.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a486120.js",
+    "static/js/2.f41ffbd8.chunk.js",
+    "static/css/main.bb1ccfa9.chunk.css",
+    "static/js/main.0990dd2e.chunk.js"
+  ]
+}
